@@ -265,6 +265,7 @@ function getage(age){
     return age>=18;
 } */
 
+
 // toString(),valueOf(),fill()
 
 

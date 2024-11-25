@@ -18,16 +18,36 @@ while(a<=10){
 }
 document.write('<br>')
 
-var a=1;
-document.write('<ol');
+b=0;
+while(b<10){
+    document.write(+b+' '+'(^_^)'+ '<br>');
+    b=b+1;
+}
+document.write('<br>')
+
+
+// may code not seen here a glitch has been occured
+var fact = 1;
+var num = 5;
+while (num > 0) {
+    fact = fact * num;
+    num = num - 1;
+}
+document.write("Factorial: " + fact);
+
+
+
+/* var a=1;
+document.write('<ol>');
 while(a<=10){
     document.write('<li type="square" >*^*</li>');
     a=a+2;
 }
-document.write('</ol>');
+document.write('</ol>'); */
 
 
 //    DO/WHILE-LOOP
+document.write("<br>")
 document.write("<br>")
 
 var a=1;     //initialising the variable
@@ -35,17 +55,32 @@ do{
 document.write('@');
 a++;     //incrementing the variable
 document.write("<br>")
-}while(a<=10)
+}while(a<=5)
 
 // NOTE:only one difference in do/while and while loop is that the first time the cursur go inside without checking the condition.
 //       so the first time the condition is true and then it goes inside the loop and then it checks the condition and then it goes inside the loop again.so it will run at least once.
 
 //     FOR-LOOP
+
+/* for (initialization; condition; increment/decrement) {
+    // Code to execute
+}
+
+for(const w=10 ; w>=5 ;w--){
+    document.write( w+"!!")
+}
+
 document.write("<br>")
 
 for(var a=1;a<=10;a++){
-    document.write('Yahoo G ')
+    document.write('#')
     document.write("<br>")
+}
+
+const fruits = ["Apple", "Banana", "Cherry"];
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log("Fruit:", fruits[i]);
 }
 
 
@@ -118,7 +153,7 @@ for(var a=5;a>=1;a=a-1){
         document.write(b);
         document.write('<br>');
 }
-
+ */
 
 
 
