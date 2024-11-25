@@ -40,9 +40,20 @@ document.write('<br>')
 
 
 var age=20;
-if(age>=20 || age<=1){
+if(age>10 || age<=15){
     document.write('Matched Age')
 }
+
+document.write("<br>")
+
+// let day1 = "Saturday";
+let day1 = "Sunday";
+if (day1 === "Saturday" || day1 === "Sunday") {
+    document.write("It's the weekend!");
+} else {
+    document.write("It's a weekday.");
+}
+
 
 // var ka value change ekrke dekho
 document.write('<br>')
