@@ -1,7 +1,7 @@
-/* var a=[12,43,23];
-document.write(a)
+var a=[12,43,23];
+// document.write(a)
 
-document.write('<br>');
+/* document.write('<br>');
 document.write(a[0]);
 document.write('<br>');
 document.write(a[1]);
@@ -9,14 +9,34 @@ document.write('<br>');
 document.write(a[2]);
 
 document.write('<br>');
-document.write('<br>');
+document.write('<br>'); */
 
-for(var b=0;b<=2;b++){
+for(var b=0;b<=a.length-1;b++){
     document.write(a[b]);
     document.write('<br>');
 }
 
-document.write('<br>');
+
+
+/* let obj = { a: 1, b: 2, c: 3 };
+document.write(Object.values(obj)[0]);
+document.write("<br>")
+document.write(Object.keys(obj)[0]); */
+/* let obj = { a: 1, b: 2, c: 3 };
+document.write(Object.keys(obj).length); // Output: 3
+document.write("<br>")
+document.write(Object.keys(obj));
+document.write("<br>")
+document.write(Object.values(obj));
+document.write("<br>")
+document.write(Object.entries(obj));
+document.write("<br>")
+document.write(Object.assign(obj));
+document.write("<br>")
+document.write(Object.defineProperty); */
+
+
+/* document.write('<br>');
 document.write('<br>');
 
 const arr = [1, 2, 3, 4, 5];
@@ -269,19 +289,19 @@ function getage(age){
 // toString(),valueOf(),fill()
 
 
-var ary=['sanjay','aman','rehamn','hello'];
+/* var ary=['sanjay','aman','rehamn','hello'];
 var b =ary.toString();
 document.write(b);
 ary.fill('ram')
 document.write('<br>');
 
-document.write(ary);
+document.write(ary); */
 
 
 // FOR-EACH LOOP
 
 
-var ary=['sanjay','aman','rehamn','hello'];
+/* var ary=['sanjay','aman','rehamn','hello'];
 ary.forEach(function(value){
    document.write(value+'<br>')
 });
@@ -289,7 +309,7 @@ document.write('<br>');
 ary.forEach(function(value,index){
    document.write(index+" : "+value+'<br>')
 });
-
+ */
 
 
 
