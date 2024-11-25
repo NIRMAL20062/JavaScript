@@ -1,5 +1,5 @@
 function hello(){
-    document.write(' G Hello Every-body.')
+    document.write('Hello Every-body.')
 }
 hello()
 document.write('<br>')
@@ -24,7 +24,7 @@ function fullname(fname,lname){
     var a=fname +' '+lname;
     return a;
 }
-document.write(fullname('Ram','Singh'));
+document.write(fullname('i am','Singh'));
 
 document.write('<br>')
 // Example
@@ -38,6 +38,8 @@ function percentage(tt){
 }
 var total =sum(30,66,100);
 percentage(total);
+document.write("<br>")
+percentage(sum(10,20,38))
 
 
 
