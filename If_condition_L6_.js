@@ -54,6 +54,17 @@ if (day1 === "Saturday" || day1 === "Sunday") {
     document.write("It's a weekday.");
 }
 
+document.write("<br>")
+
+// !
+let isRainy = false;
+if (!isRainy) {
+    document.write("It's not raining. Let's go for a walk!");
+} else {
+    document.write("It's raining. Better stay inside.");
+}
+
+
 
 // var ka value change ekrke dekho
 document.write('<br>')
