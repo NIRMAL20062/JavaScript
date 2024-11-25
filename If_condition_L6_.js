@@ -123,8 +123,8 @@ var b;
 b ='Value is'+" "+ (q>10 ?'Truee ': ' false')
 document.write(b);
 
-// Switch Cases
 
+// Switch Cases
 document.write('<br>')
 var day=5
 switch (day) {
@@ -144,7 +144,7 @@ switch (day) {
         document.write('thursday')
         break;
     case 5:
-        document.write('friday')
+        document.write('Friday')
         break;
     case 6:
         document.write('saturday')
