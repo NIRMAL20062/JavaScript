@@ -68,15 +68,13 @@ if (!isRainy) {
 
 // var ka value change ekrke dekho
 document.write('<br>')
-
-
 // If-Else Statement
 
 var f=15;
 if(f>30){
     document.write('F is GREATER')
 }else{
-    document.write('F is Small')
+    document.write('F Is Small')
 }
 
 document.write('<br>')
@@ -85,7 +83,7 @@ var g='15'
 if(f===g){
     document.write('F same' +f)
 }else{
-    document.write('F is not same'+ ' '+g)
+    document.write('F Is Not Same'+ ' '+g)
 }
 document.write('<br>')
 document.write('<br>')
