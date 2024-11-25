@@ -5,9 +5,9 @@ document.write('Alert');
 document.write('<br>');
 
 
-alert('hello an alert has been embidded by bardx ')
+alert('Hello \n An Alert Message Has Been Embidded By Bardx ')
 
-var a=30;
+/* var a=30;
 var b=20;
 if(a>b){
     alert('A is Greater')
@@ -15,7 +15,7 @@ if(a>b){
 }
 else{
     alert('B is Greater')
-}
+} */
 
             // Confirm Box
 
@@ -35,7 +35,7 @@ else{
 
     // Prompt Box
 
-prompt('What is your Name')
+/* prompt('What is your Name')
 
 var g=prompt('What is Your Name');
 document.write(g);
@@ -47,4 +47,4 @@ document.write('You Are In Merit')
 }
 else if(per>=60 &&per<=80){
     document.write('U R 1st Division')
-}
+} */
