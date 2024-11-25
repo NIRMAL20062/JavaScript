@@ -34,12 +34,20 @@ function sum(math,eng,sc){
 }
 function percentage(tt){
     var per =(tt/300)*100;
-    document.write(per);
+    return per;
 }
 var total =sum(30,66,100);
 percentage(total);
 document.write("<br>")
-percentage(sum(10,20,38))
+
+function get_alert(){
+    alert("Hello World");
+    document.write(percentage(sum(10,20,38)))
+}
+get_alert()
+
+
+
 
 
 
