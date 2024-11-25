@@ -119,8 +119,8 @@ document.write('<br>')
 document.write('<br>')
 
 var q=100;
-var p;
-b ='Value is'+" "+ (q>10 ?'true': ' false')
+var b;
+b ='Value is'+" "+ (q>10 ?'Truee ': ' false')
 document.write(b);
 
 // Switch Cases
