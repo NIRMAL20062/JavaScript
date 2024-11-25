@@ -47,11 +47,51 @@ document.write('<br>'); */
 
 // L-2
 
-var ary=new Array();
+/* let newArray = []; // Creates an empty array
+let fruits = ["apple", "banana", "cherry"]; // Creates an array with elements
+document.write(fruits) */
+
+/* let newArray = new Array(); // Creates an empty array
+let numbers = new Array(3); // Creates an array with 3 empty slots
+let colors = new Array("red", "blue", "green"); // Creates an array with specified elements
+document.write(numbers)
+document.write(newArray)
+document.write(colors) */
+
+
+/* let newArray = Array.of(1, 2, 3); // [1, 2, 3]
+document.write(newArray) */
+
+
+/* let newArray = Array.from("hello"); // ["h", "e", "l", "l", "o"]
+document.write(newArray)
+document.write("<br>")
+let nums = Array.from([1, 2, 3], x => x * 2); // [2, 4, 6] (with a mapping function)
+document.write(nums) */
+
+
+/* let newArray = [];
+newArray.push(1); // [1]
+newArray.push(2, 3); // [1, 2, 3]
+document.write(newArray) */
+
+/* let originalArray = [1, 2, 3];
+let newArray = originalArray.map(x => x * 2); // [2, 4, 6]
+document.write(newArray) */
+
+
+
+
+
+
+
+
+
+/* var ary=new Array();
 ary[0]=12;
 ary[1]=12;
 ary[80]=12;
-document.write(ary)
+document.write(ary) */
 // Browser Me kholo re baba
 
 /* var ary=new Array();
