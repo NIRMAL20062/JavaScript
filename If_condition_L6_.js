@@ -30,7 +30,7 @@ document.write('<br>')
 
 var age=20;
 if(age>=18 && age<=21){
-    document.write('Hello')
+    document.write('Hello Good Age Brayo')
 }
 
 // NOTE:To check result in console i.e browser me open kro html and inspect me jake console me dekho
@@ -41,7 +41,7 @@ document.write('<br>')
 
 var age=20;
 if(age>=20 || age<=1){
-    document.write('Hello Kello')
+    document.write('Matched Age')
 }
 
 // var ka value change ekrke dekho
