@@ -1,7 +1,7 @@
-             // Alert Box
+        // Alert Box
 
 
-/* document.write('Alert');
+document.write('Alert');
 document.write('<br>');
 
 
@@ -15,7 +15,7 @@ if(a>b){
 }
 else{
     alert('B is Greater')
-} */
+}
 
             // Confirm Box
 
