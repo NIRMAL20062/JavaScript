@@ -1,17 +1,17 @@
         // Alert Box
 
 
-document.write('Alert');
+/* document.write('Alert');
 document.write('<br>');
 
 
-alert('Hello \n An Alert Message Has Been Embidded By Bardx ')
+alert('Hello \n An Alert Message Has Been Embidded By Bardx ') */
 
 /* var a=30;
 var b=20;
 if(a>b){
     alert('A is Greater')
-    alert('sum of number is'+ ' ' +(a+b))
+    alert('Sum of number is'+ ' ' +(a+b))
 }
 else{
     alert('B is Greater')
@@ -19,18 +19,16 @@ else{
 
             // Confirm Box
 
-/* confirm('Do u like my web')
+confirm('Do u like my web')
 var n=confirm('Do u like my web')
 alert(n);
 
-var n=confirm('Do u like my web')
-alert(n);
 if(a){
     alert('Thanks');
 }
 else{
     alert('Sorry');
-} */
+}
 
 
     // Prompt Box
