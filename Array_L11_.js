@@ -11,10 +11,10 @@ document.write(a[2]);
 document.write('<br>');
 document.write('<br>'); */
 
-for(var b=0;b<=a.length-1;b++){
+/* for(var b=0;b<=a.length-1;b++){
     document.write(a[b]);
     document.write('<br>');
-}
+} */
 
 
 
@@ -23,7 +23,7 @@ document.write(Object.values(obj)[0]);
 document.write("<br>")
 document.write(Object.keys(obj)[0]); */
 /* let obj = { a: 1, b: 2, c: 3 };
-document.write(Object.keys(obj).length); // Output: 3
+document.write(Object.keys(obj).length); // Output:3
 document.write("<br>")
 document.write(Object.keys(obj));
 document.write("<br>")
@@ -38,24 +38,20 @@ document.write(Object.defineProperty); */
 
 /* document.write('<br>');
 document.write('<br>');
-
 const arr = [1, 2, 3, 4, 5];
 console.log(arr.length);
 document.write(arr.length);
 // Output: 5
-
-
 document.write('<br>');
 document.write('<br>'); */
 
 // L-2
 
-/* var ary=new Array();
+var ary=new Array();
 ary[0]=12;
 ary[1]=12;
-ary[8]=12;
-document.write(ary) */
-
+ary[80]=12;
+document.write(ary)
 // Browser Me kholo re baba
 
 /* var ary=new Array();
