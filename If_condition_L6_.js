@@ -112,9 +112,10 @@ var z;
 (t>21)?  z='True':z="False";
 document.write(z);
 document.write('<br>')
-z=(t==10)? 'true':'false';
+z=(t==10)? 'True':'false';
 document.write(z);
 
+document.write('<br>')
 document.write('<br>')
 
 var q=100;
