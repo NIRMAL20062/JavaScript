@@ -1,4 +1,4 @@
-/* 
+/*
        JS Basic Events
 
 Click            -onclick
@@ -22,5 +22,5 @@ function clickfn(){
     alert('Wooo')
 }
 function lorem(){
-    document.write("Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, quod! Repudiandae voluptates provident quo praesentium. Deleniti cupiditate provident quidem voluptatem eum soluta voluptatum temporibus, fuga quisquam nihil expedita, suscipit esse!")
+    document.write(" <b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, quod! Repudiandae voluptates provident quo praesentium. Deleniti cupiditate provident quidem voluptatem eum soluta voluptatum temporibus, fuga quisquam nihil expedita, suscipit esse!")
 }
