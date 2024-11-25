@@ -13,16 +13,16 @@ forEach (array)
 
 var a=1;
 while(a<=10){
-    document.write(a+')'+' '+"."+'Yahoo Baba <br>');
-    a=a+1;
+    document.write(a+')'+' '+"..."+' <br>');
+    a=a+1+1;
 }
 document.write('<br>')
 
 var a=1;
 document.write('<ol');
 while(a<=10){
-    document.write('<li>Helo Bardx</li>');
-    a=a+1;
+    document.write('<li type="square" >*^*</li>');
+    a=a+2;
 }
 document.write('</ol>');
 
@@ -32,12 +32,13 @@ document.write("<br>")
 
 var a=1;     //initialising the variable
 do{
-document.write('Yahoo Baba');
+document.write('@');
 a++;     //incrementing the variable
 document.write("<br>")
 }while(a<=10)
 
 // NOTE:only one difference in do/while and while loop is that the first time the cursur go inside without checking the condition.
+//       so the first time the condition is true and then it goes inside the loop and then it checks the condition and then it goes inside the loop again.so it will run at least once.
 
 //     FOR-LOOP
 document.write("<br>")
