@@ -80,19 +80,13 @@ let newArray = originalArray.map(x => x * 2); // [2, 4, 6]
 document.write(newArray) */
 
 
-
-
-
-
-
-
-
 /* var ary=new Array();
 ary[0]=12;
 ary[1]=12;
 ary[80]=12;
 document.write(ary) */
 // Browser Me kholo re baba
+
 
 /* var ary=new Array();
 for(var g=0;g<3;g++){
@@ -105,32 +99,44 @@ for (var a=0;a<3;a++){
 document.write('</ul'); */
 
 
+
 // L-3   Multi-dimentional Array
 
-// I love u my gurl❤️💕😘💖🫀💏❤️
+//love u my gurl❤️💕😘💖🫀💏❤️
 
 /* var ary =[
 ['Harry',18,'male','B.com'],
 ['sunny',19,'male','bca'],
 ['sarah',18,'female','bca']
-]; */
-// for(var a=0;a<3;a++){
-//     for (var b=0;b<3;b++){
-//         document.write(ary[a][b] + " ");
-//     }
-//     document.write("<br>");
-// }
-
-/* document.write("<table table border='2px' cellspacing='30px'>");
+];
 for(var a=0;a<ary.length;a++){
-    document.write("<tr>");
+    // document.write(ary[a]+ " <br>");
     for (var b=0;b<ary.length;b++){
-        document.write('<td>'+ary[a][b] + "</td>");
+        // document.write(ary[a][b] + " <br>");
+        // document.write(ary[b] + " <br>");
+        for (var c=0;c<ary[a].length;c++){
+            document.write(ary[a][c]+ " ");
+    }
+    document.write("<br>");
 }
-    document.write("/tr");
+} */
+
+document.write("<table border='8' cellspacing='30'>");
+var ary = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+for (var a = 0; a < ary.length; a++) {
+    document.write("<tr>");
+    for (var b = 0; b < ary[a].length; b++) { // Use ary[a].length for dynamic column size
+        document.write('<td>' + ary[a][b] + "</td>");
+    }
+    document.write("</tr>"); // Corrected closing tag
 }
-document.write("</table>")
- */
+document.write("</table>");
+
+
 
 
 // MODIFYING OR DELETING ARRAY ELEMENT
