@@ -121,7 +121,7 @@ for(var a=0;a<ary.length;a++){
 }
 } */
 
-document.write("<table border='8' cellspacing='30'>");
+/* document.write("<table border='8' cellspacing='30'>");
 var ary = [
     [1, 2, 3],
     [4, 5, 6],
@@ -134,7 +134,7 @@ for (var a = 0; a < ary.length; a++) {
     }
     document.write("</tr>"); // Corrected closing tag
 }
-document.write("</table>");
+document.write("</table>"); */
 
 
 
@@ -143,7 +143,9 @@ document.write("</table>");
 
 /* var ary =
     ['Harry',18,'male','B.com'];
+    document.write(ary)
 ary[2]=300;
+document.write('<br>')
 document.write(ary)
 delete ary[3]
 document.write('<br>')
