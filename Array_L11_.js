@@ -155,7 +155,7 @@ document.write(ary) */
 
 // ARRAY-SORT AND REVERSE
 
-/*
+/* 
 sort() 
 reverse()
 pop()
@@ -180,8 +180,8 @@ forEach()
 toString()
 valueOf()
 fill()
-
 */
+
 /* var ary =['e','c','b','a','d'];
 document.write(ary);
 ary.sort()
@@ -231,21 +231,21 @@ document.write('<br>'); */
 
 
 // comma wooma nhi aaya na babu
-/* document.write(ary.join(' '));
+/* var ary=['sanjay','aman','rehamn','hello'];
+document.write(ary.join(' '));
 document.write('<br>'); */
 
 // Array Slice() and Splice()
 
-
-/* var g =ary.slice(1,3);
-document.write(g);
- */
-
-
 /* var ary=['sanjay','aman','rehamn','hello'];
-document.write(ary); */
+var g =ary.slice(1,3);
+document.write(g); */
 
-/* ary.splice(2,0,'Neh','Kar');
+
+
+/* var ary=['Sanjay','Aman','Rehamn','Hello'];
+document.write(ary);
+ary.splice(2,0,'Neh','Kar');
 document.write('<br>');
 document.write(ary); */
 
@@ -256,7 +256,7 @@ document.write(ary); */
 
 // Array isArray()
 
-/* var ary=['sanjay','aman','rehamn','hello'];
+var ary=['sanjay','aman','rehamn','hello'];
 document.write(ary)
 document.write("<br>")
 var b=Array.isArray(ary);
@@ -268,7 +268,7 @@ if(Array.isArray(ary)==true){
     document.write('This Is an Array');
 }else{
     document.write("Is not an Array")
-} */
+}
 
 
 // indexOf() and lastIndexOf()

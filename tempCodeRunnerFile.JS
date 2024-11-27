@@ -1,6 +1,13 @@
-var a=1;     //initialising the variable
-do{
-document.write('@');
-a++;     //incrementing the variable
+var ary=['sanjay','aman','rehamn','hello'];
+document.write(ary)
 document.write("<br>")
-}while(a<=5)
+var b=Array.isArray(ary);
+document.write(b)
+document.write("<br>")
+
+
+if(Array.isArray(ary)==true){
+    document.write('This Is an Array');
+}else{
+    document.write("Is not an Array")
+}
