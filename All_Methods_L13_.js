@@ -1,11 +1,11 @@
 // 1.Array Map Method
 
-/* var a=[1,3,5,7];
+var a=[1,3,5,7];
 function mest(x){
-    return x*10
+    return x*x
 }
 var b=a.map(mest);
-document.write(b) */
+document.write(b)
 
 
 document.write("<br>")

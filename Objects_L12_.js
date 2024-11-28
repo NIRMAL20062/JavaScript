@@ -59,17 +59,17 @@ document.write(a.living.country)
 
 
 
-var person=new Object();
+// var person=new Object();
 
-person.firstname='I am'
-person.lastname='a Developer'
-person.age=25;
+// person.firstname='I am'
+// person.lastname='a Developer'
+// person.age=25;
 
-document.write(person.firstname+' ');
-document.write(person.lastname+"-");
-document.write(person.age);
-document.write("<br>")
-document.write(person['age'])
+// document.write(person.firstname+' ');
+// document.write(person.lastname+"-");
+// document.write(person.age);
+// document.write("<br>")
+// document.write(person['age'])
 
 // document.write("<br>")
 
@@ -90,7 +90,7 @@ document.write(person['age'])
 
 // constant variable with Array and Objects
 
-// as we know ,we can't create same variable in constant variable . but while working with array may be same variable we wanna to use so here the solution
+//as we know ,we can't create same variable in constant variable . but while working with array may be same variable we wanna to use so here the solution
 
 // const l=[23,55,89];
 // document.write(l);
