@@ -256,7 +256,7 @@ document.write(ary); */
 
 // Array isArray()
 
-var ary=['sanjay','aman','rehamn','hello'];
+/* var ary=['sanjay','aman','rehamn','hello'];
 document.write(ary)
 document.write("<br>")
 var b=Array.isArray(ary);
@@ -268,7 +268,7 @@ if(Array.isArray(ary)==true){
     document.write('This Is an Array');
 }else{
     document.write("Is not an Array")
-}
+} */
 
 
 // indexOf() and lastIndexOf()
@@ -296,7 +296,7 @@ var b=ary.some(checkadult);
 document.write(b)
 function checkadult(age) {
     return age>=18;  
-} */
+}
 // document.write('<br>')
 
 /* var ary=[16,18,3,55];
