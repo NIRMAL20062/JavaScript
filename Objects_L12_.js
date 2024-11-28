@@ -1,5 +1,5 @@
 var a={
-    firstName:'Ram',
+    firstName:' i am',
     lastName:'Kumar',
     age:18,
     country:'India',
@@ -59,7 +59,7 @@ document.write("<br>")
 
 var person=new Object();
 
-person.firstname='Bard'
+person.firstname='im'
 person.lastname='Kumar'
 person.age=25;
 
@@ -120,7 +120,7 @@ document.write(la.name+"<br>")
 // for/in loop
 
 var a={
-    FirstName:'Ram',
+    FirstName:'i am',
     LastName:'Kumar',
     Age:18,
     Country:"India"
