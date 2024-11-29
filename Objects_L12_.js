@@ -80,7 +80,7 @@ document.write(a.living.country)
 // ]
 // document.write(student[0].Name+" "+student[0].age+"<br>")
 
-// // Loop Kr lo 
+// // // Loop Kr lo 
 // for(var a=0;a<student.length;a++){
 //     document.write(student[a].Name+" "+student[a].age+"<br>")
 // }
@@ -114,12 +114,12 @@ document.write(a.living.country)
 //     Age:'44'
 // }
 // document.write(la.name+"<br>")
-// document.write(la.Age)
+// document.write(la.Age+"<br>")
 // la.name="Yahoo Baba <br>"
 // document.write(la.name+"<br>")
 
 
-// // for/in loop
+// for/in loop
 
 // var a={
 //     FirstName:'i am',
@@ -131,7 +131,8 @@ document.write(a.living.country)
 //     document.write(i +": "+a[i]+'<br>');
 // }
 
-
+// var q=[1,2,3,4]
+// for(var i in q){document.write(i)}
 
 
 

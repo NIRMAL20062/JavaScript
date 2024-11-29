@@ -1,15 +1,14 @@
 // 1.Array Map Method
 
-var a=[1,3,5,7];
-function mest(x){
-    return x*x
-}
-var b=a.map(mest);
-document.write(b)
+// var a=[1,3,5,7];
+// function mest(x){
+//     return x*x;
+// }
+// var b=a.map(mest);
+// document.write(b);
 
-
-document.write("<br>")
-document.write("<br>")
+// document.write("<br>");
+// document.write("<br>");
 
 
 /* var c=[
@@ -18,12 +17,17 @@ document.write("<br>")
     {fname:"Karan",lname:'tuam'}]
 var d=c.map(test);
 function test(x){
-    return x.fname+" "+x.lname
+    return(x.fname+" "+x.lname)
 }
 document.write(d) */
 
 
 // 2. String Method
+// str1="heloo"
+// str2=str1.split("");
+// document.write(str2);
+// document.write("<br>");
+// document.write("<br");
 
 /*         length()
         charAt()
@@ -55,9 +59,8 @@ document.write(d) */
         localeCompare()
         normalize()
         codePointAt()
-        fromCharCode() 
+        fromCharCode()
         */
-
         document.write("<br>")
         document.write("<br>")
 
