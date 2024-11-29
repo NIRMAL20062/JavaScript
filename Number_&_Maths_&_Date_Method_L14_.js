@@ -1,21 +1,21 @@
-/* Number Properties
+/* // Number Properties
 
 Number.MAX_VALUE
 Number.MIN_VALUE
 Number.POSITIVE_INFINITY
 Number.NEGATIVE_INFINITY
 Number.NaN
-Number Methods
+// Number Methods
 
 Number.isInteger()
 Number.isFinite()
 Number.isNaN()
 Number.isSafeInteger()
-Parsing Methods
+// Parsing Methods
 
 Number.parseInt()
 Number.parseFloat()
-Math Methods
+// Math Methods
 
 Math.abs()
 Math.ceil()
@@ -33,7 +33,7 @@ Math.exp()
 Math.sin()
 Math.cos()
 Math.tan()
-Other Useful Methods
+// Other Useful Methods
 
 toString()
 toFixed()
@@ -60,7 +60,7 @@ document.write(c+10); */
 
 /* var a="223.4"
 // var a="Bardx 4" //not a number(NAN)
-var a="55 bardx"
+// var a="55 bardx"
 var b=parseInt(a);
 document.write(b); */
 
@@ -78,6 +78,7 @@ document.write(b); */
 // isFinite()
 
 /* var a=22/7;
+var a=22/0;
 var a=Infinity;
 var b=Number.isFinite(a)
 document.write(b) */
@@ -94,7 +95,7 @@ document.write(b) */
 // toFixed()
 
 /* var a=5.57;
-var b=a.toFixed(23);
+var b=a.toFixed(33);
 document.write(b) */
 
 /* var a=5.57;
