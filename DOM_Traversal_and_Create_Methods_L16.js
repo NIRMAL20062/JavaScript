@@ -107,7 +107,7 @@ console.log(document.createComment('this is comment'));
 // appendChild and insertBefore
 // so hamne 72 lecture me tag bananya and text likha but to add this we use append
 
-var x=(document.createElement('h2'));
+/* var x=(document.createElement('h2'));
 var y=(document.createTextNode('Hello World'));
 x.appendChild(y)
 console.log(x);
@@ -120,9 +120,12 @@ var z= document.createComment('A Comment')
 document.getElementById('inner').appendChild(z)   //wow ek last me comment added
 
 // specify a position u wanna append
-document.getElementById('inner').insertBefore(z,document.getElementById('inner').childNodes[2])
+document.getElementById('inner').insertBefore(z,document.getElementById('inner').childNodes[2]) */
 
 
 
-
+// L-74
+// insertAdjacentElement
+// insertAdjacentHTML
+// insertAdjacentText
 
