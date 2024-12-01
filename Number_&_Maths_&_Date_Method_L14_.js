@@ -293,14 +293,14 @@ document.write("<br>");
 document.write(n.getMinutes()); */
 
 
-var n =new Date();
+/* var n =new Date();
 n.setDate(20);
 n.setFullYear(2020);
 n.setMonth(2);
 n.setHours(12);
 document.write(n)
 document.write("<br>")
-document.write(n.getDate()+"/"+n.getMonth()+" /"+n.getFullYear())
+document.write(n.getDate()+"/"+n.getMonth()+" /"+n.getFullYear()) */
 
 
 
