@@ -227,6 +227,29 @@ console.log(parentElement.contains(target));
 // true aaya kyonki target child hai parentElement me */
 
 
+// L-78
+// hasAttribute() and hasChildNode()
 
+/* var target=document.getElementById('inner')
+var find=target.hasAttribute('Class')
+console.log(find); */
+
+/* var target=document.getElementById('inner')
+var find=target.hasChildNodes()//ander kuch likhne ki jarurat nahi hai ye sirf kuch bhi ho like enter bhi hoga tab bhi true return krega 
+console.log(find) */
+
+
+
+// L-79
+
+// isEqualNode()
+
+// note:same node hai ya nahi check karta hai
+// agar same node hai to true return karta hai
+// agar nahi hai to false return karta hai
+var target1=document.getElementById('inner')
+var target2=target1.cloneNode(true)
+console.log(target1.isEqualNode(target2)); // false aaya kyonki target1 aur
+// target2 do different node hai
 
 
