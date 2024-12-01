@@ -125,7 +125,37 @@ document.getElementById('inner').insertBefore(z,document.getElementById('inner')
 
 
 // L-74
-// insertAdjacentElement
-// insertAdjacentHTML
-// insertAdjacentText
+// insertAdjacentElement    <p></p>
+// insertAdjacentHTML       <p>Hello World</p>
+// insertAdjacentText       Hello World
 
+// uper 73 lecture me jo hai o bas append krenge per ye tino append and create dono kr sakte hai.
+
+// 1.insertAdjacentElement
+
+// a.beforebegin
+// b.afterbegin
+// c.beforeend
+// d.afterend
+
+/* var newElement=document.createElement('h3');
+//  tag banaya
+var newText=document.createTextNode('Hello World');
+// text likha
+newElement.appendChild(newText);
+// dono ko merge kiya
+var target=document.getElementById('Child-C');
+// id select kiya
+target.insertAdjacentElement('beforebegin',newElement)
+// before me add kiya
+target.insertAdjacentElement('afterbegin',newElement) */
+
+
+
+
+/* var target=document.getElementById('Child-C')
+// id select kiya
+var newElement="<h2>This Is Heading </h2>"
+
+target.insertAdjacentHTML('beforebegin',newElement) //before me add kiya
+target.insertAdjacentHTML('afterend',newElement) //before me add kiya */
