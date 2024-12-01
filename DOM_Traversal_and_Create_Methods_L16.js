@@ -125,6 +125,7 @@ document.getElementById('inner').insertBefore(z,document.getElementById('inner')
 
 
 // L-74
+
 // insertAdjacentElement    <p></p>
 // insertAdjacentHTML       <p>Hello World</p>
 // insertAdjacentText       Hello World
@@ -166,4 +167,55 @@ target.insertAdjacentHTML('afterend',newElement) //before me add kiya */
 var newtext="This Is Heading";
 
 target.insertAdjacentText('afterend',newtext); //before me add kiya */
+
+// L-75
+
+// replaceChild() and removeChild()
+
+/* var newElement=document.createElement('div');
+
+var newText=document.createTextNode('Z');
+
+newElement.appendChild(newText);
+
+var target=document.getElementById('inner');
+
+var oldelement=target.children[1];
+
+console.log(oldelement);
+
+target.replaceChild(newElement,oldelement)
+// A ko Z se replace */
+
+
+
+/* var target=document.getElementById('inner');
+
+var oldelement=target.children[1];
+
+target.removeChild(oldelement) //A ko remove kiya */
+
+// L-76
+// ColneNode()
+// html me two ul list banao ekse dusre me colne kro
+
+
+var target=document.getElementById('list1').children[0];
+var copyelement=target.cloneNode(true);
+
+// if false then it only copy attributes and tag
+// if true then it copy all i.e inner value
+console.log(copyelement);
+document.getElementById('list2').appendChild(copyelement)
+
+// 2nd list me copy kiya A
+
+
+
+
+
+
+
+
+
 
