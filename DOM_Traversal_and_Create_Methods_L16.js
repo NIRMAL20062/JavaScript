@@ -159,3 +159,11 @@ var newElement="<h2>This Is Heading </h2>"
 
 target.insertAdjacentHTML('beforebegin',newElement) //before me add kiya
 target.insertAdjacentHTML('afterend',newElement) //before me add kiya */
+
+
+/* var target=document.getElementById('Child-C');
+// id select kiya
+var newtext="This Is Heading";
+
+target.insertAdjacentText('afterend',newtext); //before me add kiya */
+
