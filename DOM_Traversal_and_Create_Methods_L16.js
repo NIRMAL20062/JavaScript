@@ -195,12 +195,15 @@ var oldelement=target.children[1];
 
 target.removeChild(oldelement) //A ko remove kiya */
 
+
+
+
 // L-76
 // ColneNode()
 // html me two ul list banao ekse dusre me colne kro
 
 
-var target=document.getElementById('list1').children[0];
+/* var target=document.getElementById('list1').children[0];
 var copyelement=target.cloneNode(true);
 
 // if false then it only copy attributes and tag
@@ -208,12 +211,20 @@ var copyelement=target.cloneNode(true);
 console.log(copyelement);
 document.getElementById('list2').appendChild(copyelement)
 
-// 2nd list me copy kiya A
+// 2nd list me copy kiya A */
+
+// L-77
+
+// contains()
+
+// yaad se uncomment kr do jo back-chodi hai upper wale lecture me in html
 
 
+/* var parentElement=document.getElementById('inner')
+var target=document.getElementById('Child-C')
 
-
-
+console.log(parentElement.contains(target));
+// true aaya kyonki target child hai parentElement me */
 
 
 
